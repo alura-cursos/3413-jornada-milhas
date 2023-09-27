@@ -34,6 +34,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DropdownUfComponent } from './shared/dropdown-uf/dropdown-uf.component';
 import { SeletorPassageiroComponent } from './shared/seletor-passageiro/seletor-passageiro.component';
 import { LoginComponent } from './pages/login/login.component';
+import { DepoimentosComponent } from './pages/home/depoimentos/depoimentos.component';
+import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
 import { FormBaseComponent } from './shared/form-base/form-base.component';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatDividerModule } from '@angular/material/divider';
@@ -51,12 +53,13 @@ import { FiltrosComplementaresComponent } from './shared/form-busca/filtros-comp
 import { PassagemDestaqueComponent } from './shared/passagem-destaque/passagem-destaque.component';
 import { SharedModule } from './shared/shared.module';
 import { MaterialModule } from './core/material/material.module';
-import { DepoimentosComponent } from './pages/home/depoimentos/depoimentos.component';
-import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    PromocoesComponent,
+    DepoimentosComponent,
     LoginComponent,
     CadastroComponent,
     PerfilComponent,
