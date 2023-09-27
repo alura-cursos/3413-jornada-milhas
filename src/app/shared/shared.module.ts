@@ -1,6 +1,7 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { ReactiveFormsModule } from "@angular/forms";
+
 import { BannerComponent } from "./banner/banner.component";
 import { BotaoControleComponent } from "./botao-controle/botao-controle.component";
 import { CardBuscaComponent } from "./card-busca/card-busca.component";
