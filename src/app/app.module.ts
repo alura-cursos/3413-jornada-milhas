@@ -19,12 +19,12 @@ import { ErroModule } from './core/erro/erro.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    BrowserAnimationsModule,
     SharedModule,
     MaterialModule,
     HomeModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
     ErroModule
   ],
   providers: [{

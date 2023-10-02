@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'auth',
-    loadChildren: () => import('./autenticacao/autenticacao.module').then(m => m.AutenticacaoModule),
+    loadChildren: () => import('./autenticacao/autenticacao.module').then(m => m.AutenticacaoModule)
   },
   {
     path: 'busca',
-    loadChildren: () => import('./busca/busca.module').then(m => m.BuscaModule),
+    loadChildren: () => import('./busca/busca.module').then(m => m.BuscaModule)
   },
   {
     path: '',
@@ -17,8 +17,8 @@ const routes: Routes = [
   },
   {
     path: '**',
-    pathMatch: 'full',
-    redirectTo: '/pagina-nao-encontrada'
+    redirectTo: '/pagina-nao-encontrada',
+    pathMatch: 'full'
   }
 ];
 
